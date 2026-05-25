@@ -1,0 +1,22 @@
+[
+  "age",
+  "sex",
+  "cp",
+  "trestbps",
+  "chol",
+  "fbs",
+  "restecg",
+  "thalach",
+  "exang",
+  "oldpeak",
+  "slope",
+  "ca",
+  "thal",
+  "high_chol",
+  "high_bp",
+  "hr_ratio",
+  "sig_oldpeak",
+  "age_group_middle",
+  "age_group_senior",
+  "age_group_elderly"
+]

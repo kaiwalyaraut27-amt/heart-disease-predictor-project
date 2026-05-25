@@ -1,0 +1,43 @@
+{
+  "project": "Heart Disease Classifier",
+  "model_type": "LogisticRegression",
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal",
+    "high_chol",
+    "high_bp",
+    "hr_ratio",
+    "sig_oldpeak",
+    "age_group_middle",
+    "age_group_senior",
+    "age_group_elderly"
+  ],
+  "target": "target",
+  "trained_on": "2026-05-25T09:57:32.739100",
+  "train_samples": 241,
+  "test_samples": 61,
+  "metrics": {
+    "test_accuracy": 0.7869,
+    "test_f1": 0.8,
+    "test_auc": 0.882,
+    "sensitivity": 0.7879,
+    "specificity": 0.7857
+  },
+  "best_params": {
+    "model__C": "0.6605159298527952",
+    "model__class_weight": "balanced",
+    "model__penalty": "l2",
+    "model__solver": "lbfgs"
+  }
+}
